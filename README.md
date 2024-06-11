@@ -483,7 +483,7 @@ lm += gen(max_tokens=30, tools=[calculator_tool], stop='\n\n')
 
 
 ### Gsm8k example
-Notice that the calculator is just called seamlessly during generation. Here is a more realistic exampe of the model solving a gsm8k question:
+Notice that the calculator is just called seamlessly during generation. Here is a more realistic example of the model solving a gsm8k question:
 
 ```python
 @guidance
